@@ -6,6 +6,10 @@ public class Main {
             System.out.println("Invalid value");
         }
 
+        if (number == 0) {
+            System.out.println("Zero");
+        }
+
         int reversedNumber = reverse(number);
         int originalDigitCount = getDigitCount(number);
 
